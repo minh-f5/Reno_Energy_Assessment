@@ -49,6 +49,18 @@ The main objectives for this project are:
     + Align the time series to match the format of **IRM.csv**, ensuring the **datetime** column is in the correct format for modeling.
 
 - Clean and preprocess the data by handling missing values, ensuring date formats are correct, and merging datasets.
+
+* Step 3: Visualization before Train Model
+![Image Description](images/correlation.png)
+
+![Image Description](images/img1.png)
+
+![Image Description](images/4.png)
+
+
+
+
+
   
 ### 2. Model Training using Prophet 📈
 - Use **Prophet** to train a time-series model with historical solar production data.
@@ -60,12 +72,27 @@ The main objectives for this project are:
 ### 4. Visualization 🖼️
 - Display the forecast using **Plotly** for interactive line charts.
 - Showcase the forecast components like **trend**, **seasonality**, and **holidays**.
+
+* This is the extra work
+![Image Description](images/prediction1.png)
+
+
+
+![Image Description](images/Forecast_Actual3M.png)
+
+
   
 ### 5. Deploy with Streamlit 🚀
 - Create a user-friendly web interface with **Streamlit** to allow users to interact with the model’s results.
 - Let users select dates for customized predictions.       
 
 ### Check out the live Streamlit app here: [Solar Production Prediction App](https://your-streamlit-app-url.com)
+
+
+
+
 ## 🚀 
 
+
 ![Solar Energy GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXNjZngzdjBmeGNldGI3c295ajQxcnI2ODFmeXNzYzlsaWhiNWU2diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aixsw4G7b0sQ95rFiW/giphy.gif)
+

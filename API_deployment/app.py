@@ -6,9 +6,40 @@ import plotly.express as px
 from prophet.plot import plot_plotly, plot_components_plotly
 import matplotlib.pyplot as plt
 
+def set_background(image_path):
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url("{image_path}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }}
+        /* General text color */
+        .stMarkdown, .stMarkdown h1, .stMarkdown h2, .stMarkdown h3, .stMarkdown p, .stMarkdown li {{
+            color: #FFFFFF; /* White text */
+        }}
+        table {{
+            border-collapse: collapse;
+            width: 100%;
+        }}
+        table, th, td {{
+            border: 2px solid white;
+            padding: 8px;
+            color: white; /* White text */
+        }}
+        th, td {{
+            text-align: left;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
 def load_data():
     df = pd.read_csv("Data/data_prediction.csv")
-
+    
     df['ds'] = pd.to_datetime(df['ds'])  
     return df
 
@@ -26,6 +57,9 @@ def predict_solar_production(model, periods=72):
     return forecast
 
 def app():
+
+    set_background("https://img1.getimg.ai/generated/85aabc6a-d9e2-467a-b4c9-cf9c75fae27e/img-eRYeasIO8ywklOpFnwjZ2.jpeg")
+   
     st.title("Solar Production Prediction")
 
     

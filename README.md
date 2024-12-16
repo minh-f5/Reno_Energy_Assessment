@@ -52,12 +52,10 @@ The main objectives for this project are:
 
 * Step 3: Visualization before Train Model
 
-
 ![Image Description](images/correlation.png)
-
 ![Image Description](images/img1.png)
-
 ![Image Description](images/4.png)
+
 
 
 
@@ -77,10 +75,8 @@ The main objectives for this project are:
 
 * This is the extra work
 ![Image Description](images/prediction1.png)
-
-
-
 ![Image Description](images/Forecast_Actual3M.png)
+
 
 
   
@@ -99,4 +95,30 @@ The main objectives for this project are:
 
 
 ![Solar Energy GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXNjZngzdjBmeGNldGI3c295ajQxcnI2ODFmeXNzYzlsaWhiNWU2diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aixsw4G7b0sQ95rFiW/giphy.gif)
+
+🚀 Future Improvements
+In the future, the solar production prediction model can be extended and improved in several ways to provide more granular and accurate predictions:
+
+1. Prediction by Quarter, Season, and Year
+The current model predicts solar production at a daily level. However, future versions of the model could predict solar production by quarter, season, or even year. These time frames could allow businesses and energy providers to plan better for periods of high or low energy demand.
+The inclusion of seasonal factors (e.g., winter vs. summer) could help refine predictions, as solar production varies significantly across seasons.
+Quarterly and yearly predictions would allow for long-term forecasting, aiding in annual planning and resource allocation.
+2. Incorporating Additional Factors
+Currently, the model uses temperature and irradiation data. However, several other factors could be integrated into the prediction model to enhance its accuracy. These include:
+Cloud cover: Cloudy weather significantly impacts solar power production, so incorporating cloud coverage data would improve the model.
+Weather forecasts: Adding short-term weather forecasts can improve the model’s ability to make near-term predictions.
+Wind speed and humidity: These environmental factors can also influence solar panel efficiency.
+Panel efficiency: Changes in panel efficiency, either due to aging or dust accumulation, could be factored in for more precise predictions.
+Economic factors: Incorporating economic indicators like energy prices or policy changes related to renewable energy could provide further context for energy generation.
+3. Use of Advanced Machine Learning Models
+While Prophet is effective for time-series predictions, advanced models such as LSTM (Long Short-Term Memory networks) or XGBoost could be explored to handle the intricacies of environmental data more effectively, especially when dealing with long-term predictions.
+Ensemble models combining multiple algorithms could also be tested to improve prediction accuracy and robustness.
+4. Real-Time Predictions
+Real-time solar energy predictions using up-to-date data would allow for dynamic forecasting, helping energy producers adjust to changing weather patterns in real-time.
+Integration with IoT devices and real-time data streams could further enhance the prediction system, making it adaptable and efficient.
+
+
+Check out my app built with [Streamlit 🌐](https://minh-f5-reno-energy-assessment-api-deploymentapp-4orfb0.streamlit.app/).
+
+![Breaking News GIF](https://media.giphy.com/media/6H9Oqec3e7cFuHzr4K/giphy.gif)
 

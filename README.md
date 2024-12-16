@@ -51,6 +51,8 @@ The main objectives for this project are:
 - Clean and preprocess the data by handling missing values, ensuring date formats are correct, and merging datasets.
 
 * Step 3: Visualization before Train Model
+
+
 ![Image Description](images/correlation.png)
 
 ![Image Description](images/img1.png)
@@ -69,7 +71,7 @@ The main objectives for this project are:
 ### 3. Making Predictions 🔮
 - Generate predictions for **12/12/2024**, which is the target forecast date.
   
-### 4. Visualization 🖼️
+ 4. Visualization 🖼️
 - Display the forecast using **Plotly** for interactive line charts.
 - Showcase the forecast components like **trend**, **seasonality**, and **holidays**.
 
@@ -82,16 +84,18 @@ The main objectives for this project are:
 
 
   
-### 5. Deploy with Streamlit 🚀
+ 5. Deploy with Streamlit 🚀
 - Create a user-friendly web interface with **Streamlit** to allow users to interact with the model’s results.
 - Let users select dates for customized predictions.       
 
-### Check out the live Streamlit app here: [Solar Production Prediction App](https://your-streamlit-app-url.com)
+- Check out the live Streamlit app here:
+
+[Solar Production Prediction App](https://minh-f5-reno-energy-assessment-api-deploymentapp-4orfb0.streamlit.app/)
 
 
 
 
-## 🚀 
+ 🚀 
 
 
 ![Solar Energy GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXNjZngzdjBmeGNldGI3c295ajQxcnI2ODFmeXNzYzlsaWhiNWU2diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aixsw4G7b0sQ95rFiW/giphy.gif)

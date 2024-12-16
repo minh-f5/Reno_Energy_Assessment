@@ -51,17 +51,12 @@ The main objectives for this project are:
 - Clean and preprocess the data by handling missing values, ensuring date formats are correct, and merging datasets.
 
 * Step 3: Visualization before Train Model
+![IMG](.//Images/correlation.png)
 
-![Image Description](images/correlation.png)
-![Image Description](images/img1.png)
-![Image Description](images/4.png)
+![IMG](.//Images/img1.png)
+![IMG](.//Images/4.png)
 
-
-
-
-
-
-  
+ 
 ### 2. Model Training using Prophet 📈
 - Use **Prophet** to train a time-series model with historical solar production data.
 - Ensure the model considers external factors like **temperature** and **irradiation** to improve the forecast accuracy.
@@ -74,9 +69,8 @@ The main objectives for this project are:
 - Showcase the forecast components like **trend**, **seasonality**, and **holidays**.
 
 * This is the extra work
-![Image Description](images/prediction1.png)
-![Image Description](images/Forecast_Actual3M.png)
-
+![IMG](.//Images/prediction1.png)
+![IMG](.//Images/Forecast_Actual3M.png)
 
 
   
@@ -84,24 +78,14 @@ The main objectives for this project are:
 - Create a user-friendly web interface with **Streamlit** to allow users to interact with the model’s results.
 - Let users select dates for customized predictions.       
 
-- Check out the live Streamlit app here:
-
-[Solar Production Prediction App](https://minh-f5-reno-energy-assessment-api-deploymentapp-4orfb0.streamlit.app/)
-
-
-
-
- 🚀 
-
-
-![Solar Energy GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXNjZngzdjBmeGNldGI3c295ajQxcnI2ODFmeXNzYzlsaWhiNWU2diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aixsw4G7b0sQ95rFiW/giphy.gif)
+Check out my app built with [Streamlit 🌐](https://minh-f5-reno-energy-assessment-api-deploymentapp-4orfb0.streamlit.app/).
 
 🚀 Future Improvements
 In the future, the solar production prediction model can be extended and improved in several ways to provide more granular and accurate predictions:
 
 1. Prediction by Quarter, Season, and Year
 The current model predicts solar production at a daily level. However, future versions of the model could predict solar production by quarter, season, or even year. These time frames could allow businesses and energy providers to plan better for periods of high or low energy demand.
-The inclusion of seasonal factors (e.g., winter vs. summer) could help refine predictions, as solar production varies significantly across seasons.
+The inclusion of seasonal factors ( winter, summer...) could help refine predictions, as solar production varies significantly across seasons.
 Quarterly and yearly predictions would allow for long-term forecasting, aiding in annual planning and resource allocation.
 2. Incorporating Additional Factors
 Currently, the model uses temperature and irradiation data. However, several other factors could be integrated into the prediction model to enhance its accuracy. These include:
@@ -118,7 +102,7 @@ Real-time solar energy predictions using up-to-date data would allow for dynamic
 Integration with IoT devices and real-time data streams could further enhance the prediction system, making it adaptable and efficient.
 
 
-Check out my app built with [Streamlit 🌐](https://minh-f5-reno-energy-assessment-api-deploymentapp-4orfb0.streamlit.app/).
 
-![Breaking News GIF](https://media.giphy.com/media/6H9Oqec3e7cFuHzr4K/giphy.gif)
 
+
+![Solar Energy GIF](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXNjZngzdjBmeGNldGI3c295ajQxcnI2ODFmeXNzYzlsaWhiNWU2diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aixsw4G7b0sQ95rFiW/giphy.gif)

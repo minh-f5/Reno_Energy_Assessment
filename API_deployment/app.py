@@ -7,7 +7,8 @@ from prophet.plot import plot_plotly, plot_components_plotly
 import matplotlib.pyplot as plt
 
 def load_data():
-    df = pd.read_csv("C:/Users/ankin/Desktop/Reno_Energy_Assessment/Data/data_prediction.csv")
+    df = pd.read_csv("Data/data_prediction.csv")
+
     df['ds'] = pd.to_datetime(df['ds'])  
     return df
 
